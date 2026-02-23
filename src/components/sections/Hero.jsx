@@ -3,6 +3,7 @@ import { BLACK, FONT } from "../../constants/theme";
 import { useWindowWidth } from "../../hooks/useWindowWidth";
 import { Reveal } from "../../hooks/useReveal.jsx";
 import { CTAButton } from "../common/CTAButton";
+import { HERO_CLIENTS } from "../../constants/data";
 
 export function Hero() {
   const w = useWindowWidth();
@@ -67,10 +68,10 @@ export function Hero() {
           }}
         >
           <div style={{ display: "flex" }}>
-            {["?img=1", "?img=2", "?img=3", "?img=4"].map((q, i) => (
+            {HERO_CLIENTS.slice(0, 4).map((img, i) => (
               <img
                 key={i}
-                src={`https://i.pravatar.cc/36${q}`}
+                src={img}
                 alt=""
                 style={{
                   width: 33,

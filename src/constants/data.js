@@ -16,6 +16,8 @@ import Matt from '../assets/client_images/Matt.jpeg';
 import Monty from '../assets/client_images/Monty.jpeg';
 import Obaidur from '../assets/client_images/Obaidur.jpg';
 
+export const HERO_CLIENTS = [Matt, Ishaan, Alex, Josh, Obaidur, Monty];
+
 export const NAV_LINKS = ["Home", "Work", "Testimonials", "Case Studies", "Contact"];
 
 export const BRANDS_ROW1 = [
