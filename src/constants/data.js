@@ -5,7 +5,6 @@ import TFTLogo from '../assets/brand_logos/TFT Logo.png';
 import TwistedTruth from '../assets/brand_logos/Twisted_Truth.jpg';
 import LogoBelong from '../assets/brand_logos/logo_belong.svg';
 import Starknet from '../assets/brand_logos/Starknet.png';
-import dm from '../assets/brand_logos/logo_dm.png';
 import botflow from '../assets/brand_logos/botflow.png';
 import pivota from '../assets/brand_logos/pivota2.png';
 
@@ -26,7 +25,6 @@ export const BRANDS_ROW1 = [
     { img: TwistedTruth },
     { img: LogoBelong },
     { img: Starknet },
-    { img: dm },
     { img: botflow },
     { img: pivota },
 ];
